@@ -25,6 +25,6 @@ io.on('connection',function(skt){
         console.log("disconnected")
      })
 });
-socketServer.listen(8080,function(){
+socketServer.listen(PORT,function(){
     console.log('8080');
 });
